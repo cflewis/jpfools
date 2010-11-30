@@ -1,0 +1,8 @@
+package com.cflewis.jpfools
+
+rule "Print text"
+when
+    $t : Text()
+then
+    System.out.println($t.getText());
+end
