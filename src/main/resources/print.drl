@@ -1,8 +1,8 @@
 package com.cflewis.jpfools
 
-rule "Print text"
+rule "Print string"
 when
-    $t : Text()
+    $s : java.lang.String()
 then
-    System.out.println($t.getText());
+    System.out.println("Drools says \"" + $s + "\"");
 end

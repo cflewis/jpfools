@@ -1,6 +1,0 @@
-target=com.cflewis.jpfools.HelloWorld
-classpath+=;/Users/cflewis/Documents/Computing/Projects/JPF/jpfools/target/classes:/Users/cflewis/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/cflewis/.m2/repository/log4j/log4j/1.2.14/log4j-1.2.14.jar:/Users/cflewis/.m2/repository/net/sourceforge/jexcelapi/jxl/2.6.10/jxl-2.6.10.jar:/Users/cflewis/.m2/repository/org/antlr/antlr-runtime/3.1.3/antlr-runtime-3.1.3.jar:/Users/cflewis/.m2/repository/org/drools/drools-api/5.1.1/drools-api-5.1.1.jar:/Users/cflewis/.m2/repository/org/drools/drools-compiler/5.1.1/drools-compiler-5.1.1.jar:/Users/cflewis/.m2/repository/org/drools/drools-core/5.1.1/drools-core-5.1.1.jar:/Users/cflewis/.m2/repository/org/drools/drools-decisiontables/5.1.1/drools-decisiontables-5.1.1.jar:/Users/cflewis/.m2/repository/org/drools/drools-templates/5.1.1/drools-templates-5.1.1.jar:/Users/cflewis/.m2/repository/org/eclipse/jdt/core/compiler/ecj/3.5.1/ecj-3.5.1.jar:/Users/cflewis/.m2/repository/org/mvel/mvel2/2.0.16/mvel2-2.0.16.jar
-peer_packages+=;com.cflewis.jpfools.peers
-#native_classpath+=;/Users/cflewis/Documents/Computing/Projects/JPF/jpfools/target/classes
-
-+log.info=gov.nasa.jpf.jvm.NativePeer
