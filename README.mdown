@@ -1,9 +1,9 @@
 Using Drools with JPF
 =====================
-This project has a simple example of using Drools as a listener with JPF. It includes both Java and Scala examples. As JPF is not in Maven, there are some hard-coded dependencies in the POM that you will want to remove.
+This project has a simple example of using Drools as a listener with JPF. It includes both Java and Scala examples. As JPF is not in Maven, there are some hard-coded dependencies in the POM that you will want to edit.
 
 I run this by using:
 
-    mvn clean compile exec:java exec:exec -Dexec.mainClass=com.cflewis.jpfools.ScalaRunner -Dexec.executable=java -Dexec.args="-jar [path to JPF JAR] [path to Runner.jpf]
+    mvn clean compile exec:java exec:exec -Dexec.mainClass=com.cflewis.jpfools.ScalaRunner -Dexec.executable=java -Dexec.args="-jar [path to JPF JAR] [path to Runner.jpf]"
 
 This code is licensed under BSD, do with it as you wish.
